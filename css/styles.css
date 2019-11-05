@@ -1,0 +1,65 @@
+body {
+  color: rgb(65, 75, 86);
+  font-family: "my crazy font", arial, sans-serif;
+  margin: 0px; /*pixels, relative units*/
+}
+
+div {
+  min-height: 100vh; /*view height, relative units*/
+  width: 100vw; /*view width, relative units*/
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+img {
+  display: flex; /*by default, either bloc or inline element*/
+  padding: 20px;
+  margin: 0px auto; /*short hand for margin-top and -bottom 0 AND margin-left and - right:auto*/
+  border-radius: 130px;
+}
+
+p {
+  width: 40%;
+  margin: 10vh 10vw;
+  font-size: 2em;
+}
+
+a {
+  color: rgb(0, 0, 0);
+}
+
+ol {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li#lower {
+  margin-top: 7%;
+}
+
+li#lowest {
+  margin-bottom: 14%;
+}
+
+div.contrast {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
